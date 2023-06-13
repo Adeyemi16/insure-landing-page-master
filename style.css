@@ -381,7 +381,7 @@ footer{
 
 @media screen and (max-width: 600px) {
     nav{
-        height: 5vh;
+        height: 6vh;
         padding: 20px;
         /* padding: 0; */
     }
@@ -535,6 +535,7 @@ footer{
 
     .boldcurb{
         font-size: 65px;
+        text-align: center;
     }
 
     .lightb{
