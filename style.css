@@ -401,9 +401,10 @@ footer{
         align-items: center;
         justify-content: center;
         box-sizing: border-box;
-        padding: 61px;
+        margin: 0;
+        padding: 0;
         position: absolute;
-        top: 8.5vh;
+        top: 10.5vh;
         margin: 0;
         height: 95vh;
         z-index: 2000;
@@ -414,22 +415,19 @@ footer{
         background: var(--Very-Dark-Violet);
         color: var(--Very-Light-Gray);
         border-color: var(--Very-Light-Gray);
-        width: 100%;
-        height: 90px;
-        font-size: 40px;
+        width: 80%;
+        height: 70px;
+        font-size: 25px;
     }
 
     .plans:hover{
         background: var(--Very-Light-Gray);
         color: var(--Very-Dark-Violet);
         border-color: var(--Very-Light-Gray);
-        width: 100%;
-        height: 90px;
-        font-size: 40px;
     }
 
     .link{
-        font-size: 40px;
+        font-size: 25px;
         font-weight: 800;
     }
 
@@ -445,7 +443,7 @@ footer{
     .second{
         display: flex;
         flex-direction: column-reverse;
-        height: 120vh;
+        height: auto;
         padding: 0;
     }
 
@@ -463,11 +461,19 @@ footer{
 
     .human{
         width: 100%;
-        padding: 20px;
+        padding: 30px;
         /* height: auto; */
         box-sizing: border-box;
         text-align: unset;
        
+    }
+
+    .none{
+        display: none;
+    }
+
+    .showe{
+        display: block;
     }
 
     .line{
@@ -494,8 +500,8 @@ footer{
 
     .plansb{
         width: 80%;
-        height: 80px;
-        font-size: x-large;
+        height: 65px;
+        font-size: larger;
     }
 
     .rows{
@@ -515,8 +521,9 @@ footer{
        padding: 0;
        width: 100%;
        box-sizing: border-box;
-       padding: 20px;
+       padding: 30px;
        margin: 0;
+       gap: 30px;
     }
 
     .diff{
@@ -526,29 +533,34 @@ footer{
     }
 
     .nappy{
-        width: 90px;
+        width: 70px;
     }
 
     .boldcurc{
-        font-size: 45px;
+        font-size: 35px;
     }
 
     .boldcurb{
-        font-size: 65px;
+        font-size: 45px;
         text-align: center;
     }
 
+    .boldcur{
+        font-size: 40px;
+    }
+
     .lightb{
-        font-size: x-large;
+        font-size: larger;
     }
 
     .light{
-        font-size: x-large;
+        font-size: larger;
     }
 
     .fourth{
         height: 40vh;
         margin: 20px;
+        padding: 15px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -566,12 +578,12 @@ footer{
 
     footer{
         padding: 20px;
-        height: 200vh;
+        height: auto;
     }
 
     .insure{
         width: 100%;
-        height: 20%;
+        gap: 30px;
         flex-direction: column;
         justify-content: space-evenly;
     }
@@ -581,8 +593,7 @@ footer{
        flex-direction: column;
        align-items: center;
        width: 100%;
-       height: 100%;
-       gap: 87px;
+       gap: 47px;
     }
 
     .end{
@@ -593,16 +604,16 @@ footer{
     }
     .ends{
         width: 100%;
-        height: 290px;
+        height: auto;
         display: flex;
         align-items: center;
         text-align: center;
     }
 
     .purple{
-        font-size: 40px;
-        letter-spacing: 8px;
-        font-weight: 700;
+        font-size: 25px;
+        letter-spacing: 7px;
+        /* font-weight: 500; */
     }
 
     .imgf{
@@ -610,22 +621,24 @@ footer{
     }
 
     .logob{
-        width: 250px;
+        width: 170px;
+        color: rgb(96, 96, 96);
     }
 
     .work{
      display: flex;
      flex-direction: column;
      gap: 20px;
+     width: 100%;
     }
 
     .svgs{
-        width: 100%;
+        width: 90%;
         justify-content: space-evenly;
     }
 
     .svg{
-        width: 50px;
+        width: 35px;
     }
 
     .ham{
